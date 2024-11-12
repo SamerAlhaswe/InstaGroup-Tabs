@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab in Last Active Group",
+  "version": "1.0",
+  "description": "Opens a new tab in the most recent group.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "new_tab_in_group": {
+      "suggested_key": {
+        "default": "Alt+T"
+      },
+      "description": "Open a new tab in the most recent group"
+    }
+  }
+}
+
