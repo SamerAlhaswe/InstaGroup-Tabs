@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "New Tab in Last Active Group",
+  "name": "InstaGroup Tabs",
   "version": "1.0",
   "description": "Opens a new tab in the most recent group.",
   "permissions": ["tabs"],
